@@ -3,9 +3,30 @@
 }
 
 ul {
-  background-color: peachpuff;
   font-weight: bold;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  border: solid 2px peachpuff;
+  border-radius: 30px;
+}
+.img-container {
+  width: fit-content;
+  margin: auto;
 }
 img {
   border-radius: 5%;
+}
+.title {
+  width: fit-content;
+  margin: 10px auto;
+}
+li {
+  list-style-type: none;
+  width: 500px;
+  margin: 10px auto;
+  background-color: rgb(243, 189, 88);
+  border-radius: 10px;
+  padding: 20px 30px;
+  text-align: center;
 }
